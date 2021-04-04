@@ -2,7 +2,7 @@ import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import CssBaseline from '@material-ui/core/CssBaseline'
 
-import Header from './components/Header'
+import Header from './components/Menu/Header'
 import Menu from './components/Menu/Menu'
 import Footer from './components/Footer/Footer'
 
