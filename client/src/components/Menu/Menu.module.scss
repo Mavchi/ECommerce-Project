@@ -1,0 +1,25 @@
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(150, 94, 94);
+
+	&__logo {
+
+		&Text {
+            display: inline-block;
+            font-size: 1.7rem;
+		}
+	}
+
+	&__menu {
+        display: flex;
+
+		&Item {
+			&:not(:last-child) {
+                margin-right: 1rem;
+            }
+		}
+	}
+}
